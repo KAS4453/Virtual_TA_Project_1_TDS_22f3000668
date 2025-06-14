@@ -1,4 +1,4 @@
-{
+{Add commentMore actions
   "version": 2,
   "builds": [
     {
@@ -22,7 +22,7 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ], 
+  ],
   "functions": {
     "api/index.ts": {
       "maxDuration": 30
