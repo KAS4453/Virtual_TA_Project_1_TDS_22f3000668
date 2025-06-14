@@ -434,7 +434,9 @@ export default function Dashboard() {
                     <h5 className="font-medium text-red-900 mb-2">400 Bad Request</h5>
                     <p className="text-red-700 text-sm mb-3">Invalid request format or missing required fields.</p>
                     <div className="bg-neutral-900 rounded p-3">
-                      <code className="text-red-400 font-mono text-sm">{"error": "Missing required field: question"}</code>
+                      <code className="text-red-400 font-mono text-sm">
+                        {'{"error": "Missing required field: question"}'}
+                      </code>
                     </div>
                   </div>
 
@@ -442,7 +444,9 @@ export default function Dashboard() {
                     <h5 className="font-medium text-red-900 mb-2">500 Internal Server Error</h5>
                     <p className="text-red-700 text-sm mb-3">Server error occurred while processing the request.</p>
                     <div className="bg-neutral-900 rounded p-3">
-                      <code className="text-red-400 font-mono text-sm">{"error": "Internal server error. Please try again later."}</code>
+                      <code className="text-red-400 font-mono text-sm">
+                        {'{"error": "Internal server error. Please try again later."}'}
+                      </code>
                     </div>
                   </div>
                 </div>
